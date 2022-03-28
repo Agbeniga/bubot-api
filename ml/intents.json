@@ -1,0 +1,396 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Hay"
+            ],
+            "responses": [
+                "Hello",
+                "Hi",
+                "Hi there"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later",
+                "Have a nice day",
+                "Bye! Come back again"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who you are?"
+            ],
+            "responses": [
+                "I.m Bubot, your bot assistant",
+                "I'm Bubot, an Artificial Intelligent bot"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Bubot.",
+                "I'm Bubot!",
+                "Just call me as Bubot"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "give me a hand please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need a support",
+                "I need a help",
+                "support me please"
+            ],
+            "responses": [
+                "Tell me how can assist you",
+                "Tell me your problem to assist you",
+                "Yes Sure, How can I support you"
+            ]
+        },
+        {
+            "tag": "createaccount",
+            "patterns": [
+                "I need to create a new account",
+                "how to open a new account",
+                "I want to create an account",
+                "can you create an account for me",
+                "how to open a new account"
+            ],
+            "responses": [
+                "You can just easily create a new account from our web site",
+                "Just go to our web site and follow the guidelines to create a new account"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "lecturer",
+            "patterns": [
+                "Do lecturers give handouts"
+            ],
+            "responses": [
+                "Yes they do"
+            ]
+        },
+        {
+            "tag": "books",
+            "patterns": [
+                "How do I get reading materials?"
+            ],
+            "responses": [
+                "Text books are made available for purchase in the schools bookshop."
+                  ]
+        },
+        {
+            "tag": "books",
+            "patterns": [
+                "Does the school supply textbooks"
+            ],
+            "responses": [
+                "Yes, the books are supplied in the schools book shop"
+                ]
+        },
+        {
+            "tag": "handouts",
+            "patterns": [
+                "Are the students victimised for buying handouts"
+            ],
+            "responses": [
+                "No, Students are not victimised"
+            ]
+        },
+        {
+            "tag": "software engineering",
+            "patterns": [
+                "What is software engineering all about?"
+            ],
+            "responses": [
+                "Software engineering is the application of engineering principles to Software applications. "
+            ]
+        },
+        {
+            "tag": "career",
+            "patterns": [
+                "As a software engineer what is your scope of work/job?"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "room",
+            "patterns": [
+                "How many students share a room in the premium accomodation?"
+            ],
+            "responses": [
+                "Premium is 6 people per room, 3 bunk beds in  a room"
+            ]
+        },
+        {
+            "tag": "room",
+            "patterns": [
+                "How many students share a room in the classic accomodation?"
+            ],
+            "responses": [
+                "Classic is 4 people per room, single beds with personal reading desks"
+            ]
+        },
+        {
+            "tag": "feeding",
+            "patterns": [
+                "How does the feeding program run?"
+            ],
+            "responses": [
+                "There's option for 2 meals \nBreakfast/lunch\nBreakfast/supper\nlunch/supper \n\n Then 3 meals option plan \nBreakfast/lunch/Supper"
+            ]
+        },
+        {
+            "tag": "caf",
+            "patterns": [
+                "What time does caf open in the morning?"
+            ],
+            "responses": [
+                "Caf is opened from 6:30am-10am for breakfast"
+            ]
+        },
+        {"tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please can you give me more info", "Not sure i understand", "Please can you repeat your sentence"],
+            "context": [""]
+        },
+        {"tag": "church on Saturdays",
+            "patterns": ["Why do students go to church on Saturdays?"],
+            "responses": ["Babcock University is an Adventist school therefore it lies in Adventist faith that Sabbath is on Saturday."],
+            "context": [""]
+        },
+        {"tag": "church compulsory",
+            "patterns": ["Is going to church compulsory in Babcock University?"],
+            "responses": ["Yes, it is compulsory to attend church services on campus."],
+            "context": [""]
+        },
+        {"tag": "demerit point",
+            "patterns": ["What is a demerit point?"],
+            "responses": ["Points deducted for bad behaviour or violation of school rules"],
+            "context": [""]
+        },
+        {"tag": "Demerit points clearing",
+            "patterns": ["How can demerit points be cleared?"],
+            "responses": ["Demerit points can be cleared by visiting the hall admin in your hall of stay to find out what can be given to you as punishment."],
+            "context": [""]
+        },
+        {"tag": "choosing of roommates",
+            "patterns": ["Can students choose who their roommates gets to be"],
+            "responses": ["Yes, in some cases students are given the option of picking who their roommate gets to be."],
+            "context": [""]
+        },
+        {"tag": "school fees per session",
+            "patterns": ["How much is the school fees per session?"],
+            "responses": ["The school fees differs based on your choice of program. Visit the school website for further information."],
+            "context": [""]
+        },
+        {"tag": "school fees payment",
+            "patterns": ["Can the school fees be paid in instalments?"],
+            "responses": ["Yes, there is a breakdown of how installment payment can be done. Visit the school website to check it out."],
+            "context": [""]
+        },
+        {"tag": "methods of fees payment",
+            "patterns": ["What are the methods of which fees can be paid?"],
+            "responses": ["Fees can be paid through bank transfer or directly to your etranzact account which you can find on your student page"],
+            "context": [""]
+        },
+        {"tag": "Course registration",
+            "patterns": ["How do we register for our courses?"],
+            "responses": ["Courses can be registered on your student page on the school website."],
+            "context": [""]
+        },
+        {"tag": "course materials",
+            "patterns": ["How can I access course materials?"],
+            "responses": ["Soft copies of textbooks or of lecture slides are usually given out by lecturers or you can visit the bookstore for materials"],
+            "context": [""]
+        },
+        {"tag": "result checking",
+            "patterns": ["How can I check my result?"],
+            "responses": ["You can check your results on your student page."],
+            "context": [""]
+        },
+        {"tag": "extracurricular activities",
+            "patterns": ["What extracurricular activities are available on campus?"],
+            "responses": ["Some of the activites can be Drama groups, Choir groups, Educational groups, Soccer, Basketball, Track races, Volleyball and many others"],
+            "context": [""]
+        },
+        {"tag": "professional exams",
+            "patterns": ["What professional exams does the school expose students to?"],
+            "responses": ["There are some professional exams organized by some of departments in school, such as that of the accounting department organizing for students to write ATS and ICAN exams"],
+            "context": [""]
+        },
+        {"tag": "preperation for professional exams",
+            "patterns": ["How does the school prepare its students for these exams?"],
+            "responses": ["Tutorials are held and study materials are made available to the students who choose to write the exams"],
+            "context": [""]
+        },
+        {"tag": "tutorials",
+            "patterns": ["Does the school orgnaize tutorials for students?"],
+            "responses": ["Yes, departments organize tutorials on some basis for its students"],
+            "context": [""]
+        },
+        {"tag": "etranzact",
+            "patterns": ["What is etranzact?"],
+            "responses": ["A holding account for students to pay their fees to before they transfer it to the university account"],
+            "context": [""]
+        },
+        {"tag": "leave school",
+            "patterns": ["Can I leave school at will?"],
+            "responses": ["no, a permit is required to leave the school grounds"],
+            "context": [""]
+        },
+        {"tag": "dress code",
+            "patterns": ["Is there a given dress code?"],
+            "responses": ["There is no strict dress code, but students must be compliant as stated in the school handbook"],
+            "context": [""]
+        },
+        {"tag": "gap years",
+            "patterns": ["Are students allowed to take gap years?"],
+            "responses": ["Yes, students can take gap years and finish their program later"],
+            "context": [""]
+        },
+        {"tag": "academic session",
+            "patterns": ["How many semesters constitute an academic session in Babcock university?"],
+            "responses": ["2 semesters make an academic year, but in some cases for those with carryovers there is an optional 3rd semester known as summer semester"],
+            "context": [""]
+        },
+        {"tag": "Christian only school",
+            "patterns": ["Is Babcock university for Christians only?"],
+            "responses": ["No, Babcock is open to people of different religions"],
+            "context": [""]
+        },
+        {"tag": " appliances",
+            "patterns": ["What appliances are allowed in Babcock?"],
+            "responses": ["Iron, kettle, and fridge"],
+            "context": [""]
+        },
+        {"tag": "cooking",
+            "patterns": ["Is cooking allowed in the halls of residence?"],
+            "responses": ["No, no form of cookingis permitted in halls of residence"],
+            "context": [""]
+        },
+        {"tag": "vehicles",
+            "patterns": ["Are students allowed to come with vehicles?"],
+            "responses": ["Yes, they are allowed to"],
+            "context": [""]
+        },
+        {"tag": "course materials",
+            "patterns": ["How can I access course materials?"],
+            "responses": ["Soft copies are available through physical book stores"],
+            "context": [""]
+        },
+        {"tag": "induction process",
+            "patterns": ["What kind of induction process do you have when you join Babcock?"],
+            "responses": ["New students undergo matriculation"],
+            "context": [""]
+        },
+        {"tag": "registration timeout",
+            "patterns": ["If a semester ends without a student registering, what is the solution?"],
+            "responses": ["The student will have to do a result upload for that semester"],
+            "context": [""]
+        },
+        {"tag": "blocked page",
+            "patterns": ["Why is my page blocked?"],
+            "responses": ["Your page can be blocked for different reasons, visit your department for further clarification"],
+            "context": [""]
+        },
+        {"tag": "lost student ID card",
+            "patterns": ["How do I replace my lost student ID card?"],
+            "responses": ["You can visit the ID card office"],
+            "context": [""]
+        },
+        {"tag": "semester units",
+            "patterns": ["How many units can a student take in a semester?"],
+            "responses": ["It depends on your deparment course load for the semester"],
+            "context": [""]
+        },
+        {"tag": "summer semester unit",
+            "patterns": ["How many units can a student take in a summer semester?"],
+            "responses": ["Only 10 credit units are allowed"],
+            "context": [""]
+        },
+        {"tag": "worship",
+            "patterns": ["Where do students worship?"],
+            "responses": ["various worship centres are provided on campus for students to worship in"],
+            "context": [""]
+        },
+        {"tag": "dreadlocks",
+            "patterns": ["Are male students allowed to carry locks?"],
+            "responses": ["No, that is against the school rule"],
+            "context": [""]
+        },
+        {"tag": "first class",
+            "patterns": ["What is the CGPA bracket for a first class?"],
+            "responses": ["4.5-5.0"],
+            "context": [""]
+        },
+        {"tag": "second class upper",
+            "patterns": ["What is the CGPA bracket for a second class upper?"],
+            "responses": ["3.5-4.49"],
+            "context": [""]
+        },
+        {
+            "tag": "second class lower",
+            "patterns": ["What is the CGPA bracket for a second class lower?"],
+            "responses": ["3.49 ad below"],
+            "context": [""]
+        },
+        {"tag": "third class",
+            "patterns": ["Does Babcock graduate students with a third class?"],
+            "responses": ["No, Babcock does not graduate third class."],
+            "context": [""]
+        }
+    ]
+}
