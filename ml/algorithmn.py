@@ -9,28 +9,28 @@ import os
 
 
 cwd = os.getcwd()  # Get the current working directory (cwd)
-files = os.listdir(cwd + "\\ml")  # Get all the files in that directory
+files = os.listdir(cwd + "/ml")  # Get all the files in that directory
 
 
 class ChatBot:
 
     def openIntents(self):
 
-        with open(cwd + '\\ml\\intents.json') as file:
+        with open(cwd + '/ml/intents.json') as file:
             data = json.load(file)
         return data
 
 
     def botResponse(self,input):
         # load trained model
-        model = keras.models.load_model(cwd + '\\ml\\chat_model')
+        model = keras.models.load_model(cwd + '/ml/chat_model')
 
         # load tokenizer object
-        with open(cwd + '\\ml\\tokenizer.pickle', 'rb') as handle:
+        with open(cwd + '/ml/tokenizer.pickle', 'rb') as handle:
             tokenizer = pickle.load(handle)
 
         # load label encoder object
-        with open(cwd + '\\ml\\label_encoder.pickle', 'rb') as enc:
+        with open(cwd + '/ml/label_encoder.pickle', 'rb') as enc:
             lbl_encoder = pickle.load(enc)
 
         # parameters
