@@ -13,7 +13,7 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 def index():
     return {'message': "Hello, from BUBot"}
 
-@main_route.get('Welcome')
+@main_route.get('/Welcome')
 def get_name(name: str):
     return {'Welcome from BUBot': f'{name}'}
 

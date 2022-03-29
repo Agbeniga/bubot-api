@@ -3,6 +3,7 @@ from pymongo import MongoClient
 
 # conn = MongoClient("mongodb+srv://bubot:babcockbot@bubotcluster.mp3tz.mongodb.net/chatbot?retryWrites=true&w=majority",  serverSelectionTimeoutMS=5000)
 MONGODB_URL = "mongodb+srv://bubot:babcockbot@bubotcluster.mp3tz.mongodb.net/chatbot?retryWrites=true&w=majority"
+# "mongodb+srv://bubot:babcockbot@bubotcluster.mp3tz.mongodb.net/chatbot"
 DATABASE_NAME = "chatbot"
 
 try:

@@ -21,9 +21,9 @@ async def find_all_users():
     return usersEntity(db.user.find())
 
 @user.get('/user/{id}')
-async def find_user_by_id(id):
+async def find_user_by_id(id: str):
     db = await database.db_connection()
-    data = db.user.find_one({'_id': ObjectId(id)})
+    data = db.user.find({'_id': str(ObjectId(id))})
     
     return data
 
